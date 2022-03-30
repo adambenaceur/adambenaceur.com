@@ -1,17 +1,26 @@
+import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import Intro from "./components/intro/Intro";
 import Portfolio from "./components/portfolio/Portfolio";
+import Skills from "./components/skills/Skills";
+import Tools from "./components/tools/Tools";
 import Topbar from "./components/topbar/Topbar";
-import Works from "./components/works/Works";
+import './App.scss'
 
 function App() {
   return (
     <div className="app">
-      <Contact/>
-      <Intro/>
       <Topbar/>
-      <Works/>
-      <Portfolio/>
+      <div className="sections"> 
+      
+        <Intro/>
+        <About/> 
+        <Portfolio/>
+        <Skills/>
+        <Tools />
+        <Contact/>
+      </div>
+
     </div>
   );
 }
