@@ -1,6 +1,6 @@
 {
+  "homepage": "https://adambenaceur.github.io/adambenaceur.com/",
   "name": "portfolio",
-  "homepage": "http://adambenaceur.github.io/adambenaceur.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
