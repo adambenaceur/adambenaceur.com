@@ -1,0 +1,16 @@
+.nav {
+    display: flex;
+    align-items: center;
+    position: right;
+    justify-content: flex-end;
+    padding: 0px 30px;
+}
+
+.nav a {
+    font-weight: 300;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    margin: 0px 5px 5px 5px;
+    
+}
