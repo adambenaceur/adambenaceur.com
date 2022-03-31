@@ -4,13 +4,13 @@ import Intro from "./components/intro/Intro";
 import Portfolio from "./components/portfolio/Portfolio";
 import Skills from "./components/skills/Skills";
 import Tools from "./components/tools/Tools";
-import Topbar from "./components/topbar/Topbar";
+import Header from "./components/header/Header";
 import './App.scss'
 
 function App() {
   return (
     <div className="app">
-      <Topbar/>
+      <Header/>
       <div className="sections"> 
       
         <Intro/>
