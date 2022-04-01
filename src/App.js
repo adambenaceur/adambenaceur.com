@@ -12,10 +12,11 @@ function App() {
     <div className="menu">
       <Header/>
       <Navigation/>
+      <About/>
       
       <div className="sections"> 
         
-        <About/> 
+         
         <Portfolio/>
         <Skills/>
         <Tools />

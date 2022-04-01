@@ -4,13 +4,20 @@
 
 .menu {
     height: 100vh;
+    max-width: 50%;
+    margin: 0 auto !important;
+    float: none !important;
+    scrollbar-width: none; // for firefox
+    &::-webkit-scrollbar{ // for other browsers
+        display:none;
+    }
 }
 
 .sections {
-    width: 100%;
+    // width: 100%;
     // height: calc(100vh - 70px);
     background-color: lightsalmon;
-    top: 70px;
+    // top: 70px;
     scroll-behavior: smooth !important;
     scroll-snap-type: y mandatory;
     scrollbar-width: none; // for firefox

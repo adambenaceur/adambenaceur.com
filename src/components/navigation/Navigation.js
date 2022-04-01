@@ -12,7 +12,7 @@ function Navigation() {
         <a className='nav-divider'>|</a>
         <a className='nav-items'  href='#tools'>Tools</a>
         <a className='nav-divider'>|</a>
-        <a className='nav-items'  href='#contact'>contact</a>
+        <a className='nav-items'  href='#contact'>Contact</a>
     </div>
   )
 }
