@@ -14,3 +14,19 @@
     margin: 0px 5px 5px 5px;
     
 }
+
+.nav-items {
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.nav-items:hover {
+    color: lightgreen;
+    transform: scale(1.1);
+    transition: all .1s ease-in-out;
+    border-bottom: 1px solid lightgreen;
+    
+}
+
