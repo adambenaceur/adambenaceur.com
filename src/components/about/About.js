@@ -1,14 +1,26 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import './About.scss'
+import { init } from 'ityped'
 
 function About() {
+
+  // const textRef = useRef();
+
+  // useEffect(() => {
+  //   init(textRef.current, {
+  //     showCursor: false,
+  //     strings: ["Hi, I'm Adam !"]
+  //   });
+  // }, [] )
   return (
     <div className='about' id='about'>
         <div className='imgContainer'>
           <img src='assets/profile.jpg' alt='profile-photo'/>
         </div>
         
-        <h1>Hi, I'm Adam !</h1>
+        <div className='title'>
+          <h1 >Hi, I'm Adam !</h1>
+        </div>
         <p> I am nursing student at the <a>University of Calgary</a>.</p>
 
         <p> I like learning about computer science topics such as logic, and programming paradigms,
