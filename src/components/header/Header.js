@@ -6,7 +6,22 @@ function Header() {
     return (
       <div className='header'>
           <div className='header-content'>
-            <h1>Adam Benaceur</h1>
+            <h1 className='header-name'> 
+              <a>A</a>
+              <a>d</a>
+              <a>a</a>
+              <a>m</a>
+              <p>&nbsp;</p>
+              <a>B</a>
+              
+              <a>e</a>
+              <a>n</a>
+              <a>a</a>
+              <a>c</a>
+              <a>e</a>
+              <a>u</a>
+              <a>r</a>
+            </h1>
             <div className='media'>                 
               <div className='media-items'>
                 <a href='https://github.com/adambenaceur' title='Github'> <GitHub className='icon'/> </a>
