@@ -11,7 +11,20 @@
     align-items: center;
     text-decoration: none;
     color: black;
-    margin: 0px 5px 5px 5px;
+    margin: 0px 2.5px 2.5px 2.5px;
+    font-family: Roboto Mono;
+
+
+    @media (max-width: 640px) { 
+        font-size:90%;
+     }
+     
+    @media (max-width: 515px) { 
+        font-size: 75%;
+        justify-content: cen;
+    }
+
+    
     
 }
 

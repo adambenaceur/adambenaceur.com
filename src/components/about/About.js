@@ -3,15 +3,6 @@ import './About.scss'
 import { init } from 'ityped'
 
 function About() {
-
-  // const textRef = useRef();
-
-  // useEffect(() => {
-  //   init(textRef.current, {
-  //     showCursor: false,
-  //     strings: ["Hi, I'm Adam !"]
-  //   });
-  // }, [] )
   return (
     <div className='about' id='about'>
         <div className='imgContainer'>
