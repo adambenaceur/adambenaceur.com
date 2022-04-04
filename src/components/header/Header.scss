@@ -27,18 +27,50 @@
     align-items: center;
 }
 
-.media-items {
-    padding: 5px;
-}
+// .media-items {
+//     padding: 5px;
+// }
+
 
 .media-items a {
     text-decoration: none;
     color: black;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    justify-items:center;
+    align-items: center;
+    display:flex;
+    scrollbar-width: none; // for firefox
+    &::-webkit-scrollbar{ // for other browsers
+        display:none;
+    }
+    
+
     
 }
+.media-items a:hover {
+    color: lightgreen;
+    transition: all .1s ease-in-out;
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+}
 
+.icon {
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    padding: 7.5px;
+    
+
+}
 .icon:hover {
     transform: scale(1.2);
-    padding: 5%;
-    color: lightgreen;
+    transition: all .1s ease-in-out;
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out
 }
