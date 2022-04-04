@@ -9,21 +9,20 @@ import Navigation from "./components/navigation/Navigation";
 
 function App() {
   return (
-    <div className="menu">
-      <Header/>
-      <Navigation/>
-      <About/>
-      
-      <div className="sections"> 
-        
-         
-        <Portfolio/>
-        <Skills/>
-        <Tools />
-        <Contact/>
-      </div>
 
-    </div>
+        <div className="menu">
+          <Header/>
+          <Navigation/>
+          <About/>
+            <div className="sections"> 
+            <Portfolio/>
+            <Skills/>
+            <Tools />
+              <Contact/>
+            </div>
+        </div>
+        
+
   );
 }
 

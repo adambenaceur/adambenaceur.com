@@ -2,9 +2,12 @@
     scroll-behavior: smooth !important;
 }  
 
+
 .menu {
     height: 100vh;
-    max-width: 80%;
+    padding-right: 10%;
+    padding-left: 10%;
+
     margin: 0 auto !important;
     float: none !important;
     scrollbar-width: none; // for firefox
@@ -16,7 +19,6 @@
 .sections {
     // width: 100%;
     // height: calc(100vh - 70px);
-    background-color: lightsalmon;
     // top: 70px;
     scroll-behavior: smooth !important;
     scroll-snap-type: y mandatory;
@@ -26,7 +28,7 @@
     }
     
     * {
-        width: 100vw;
+        
         height: calc(100vh - 70px);
         scroll-snap-align: start;
     }

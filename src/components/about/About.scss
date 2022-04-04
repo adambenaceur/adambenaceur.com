@@ -34,9 +34,9 @@
 
 
 .about h1 {
-    font-weight: 100;
     position: relative;
     font-family: Roboto Mono;
+    font-weight: 100;
 }
 
 .about h1::before,
@@ -65,7 +65,7 @@
 
 .about p {
     margin: 10px 0px;
-    font-weight: 400;
+    font-weight: 300;
     font-family: Roboto Mono;
     opacity: 0;
     transform: translateY(3rem);
@@ -75,6 +75,7 @@
 .about a {
     color: lightgreen;
     font-family: Roboto Mono;
+    font-weight: 300;
 }
 
 

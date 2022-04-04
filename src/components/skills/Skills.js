@@ -4,7 +4,7 @@ import './Skills.scss'
 
 function Skills() {
   return (
-    <div id='skills'>Skills</div>
+    <div id='skills'></div>
   )
 }
 

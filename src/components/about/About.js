@@ -14,8 +14,8 @@ function About() {
         </div>
         <p> I am nursing student at the <a>University of Calgary</a>.</p>
 
-        <p> I like learning about computer science topics such as logic, and programming paradigms,
-           with an interest in web 3.0 and full stack developement. </p>
+        <p> I like learning about computer science topics such as logic, and programming paradigms. My
+           interests include web 3.0 and full stack developement. </p>
         
         <p> Thanks for checking out my page, <a>have a great rest of your day! </a></p>
 

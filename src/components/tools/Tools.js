@@ -3,7 +3,7 @@ import './Tools.scss'
 
 function Tools() {
   return (
-    <div id='tools'>Tools</div>
+    <div id='tools'></div>
   )
 }
 
