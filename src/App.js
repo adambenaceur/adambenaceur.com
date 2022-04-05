@@ -20,11 +20,13 @@ function App() {
           <Navigation/>
           <About/>
           <Portfolio/>
+          <Skills/>
+          <Tools />
+          <Contact/>
             <div className="sections"> 
             
-            <Skills/>
-            <Tools />
-              <Contact/>
+            
+              
             </div>
         </div>
         

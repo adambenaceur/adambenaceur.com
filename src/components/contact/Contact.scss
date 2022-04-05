@@ -3,3 +3,44 @@
     align-items: center;
     justify-content: center;
 }
+
+.left {
+    flex: 1;
+}
+
+.left img {
+    height: 100%;
+    overflow: hidden;
+}
+.right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+}
+
+h2 {
+    font-size:30px;
+}
+
+form {
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    input {
+        width:80%;
+        height:30px;
+        font-size:14px;
+    }
+
+    textarea {
+        width: 80%;
+        height:200px;
+        font-size:14px;
+    }
+}
