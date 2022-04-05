@@ -7,6 +7,11 @@ import Header from "./components/header/Header";
 import './App.scss'
 import Navigation from "./components/navigation/Navigation";
 
+//ideas :
+// - add a active state for the skills section. scale down .9 transformation for navigation
+
+
+
 function App() {
   return (
 
@@ -14,8 +19,9 @@ function App() {
           <Header/>
           <Navigation/>
           <About/>
+          <Portfolio/>
             <div className="sections"> 
-            <Portfolio/>
+            
             <Skills/>
             <Tools />
               <Contact/>
