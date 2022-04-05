@@ -36,17 +36,17 @@ function Portfolio() {
         case "featured":
             setData(featuredPortfolio);
             break;
-        case "featured":
+        case "web":
+            setData(webPortfolio);
+            break;
+        case "mobile":
             setData(featuredPortfolio);
             break;
-        case "featured":
-            setData(featuredPortfolio);
+        case "design":
+            setData(designPortfolio);
             break;
-        case "featured":
-            setData(featuredPortfolio);
-            break;
-        case "featured":
-            setData(featuredPortfolio);
+        case "content":
+            setData(contentPortfolio);
             break;
             default:
               setData(featuredPortfolio);
@@ -67,30 +67,14 @@ function Portfolio() {
           ))}
         </ul>
           <div className='container'>
+            {data.map(data => (
+
             <div className='item'>
-              <img alt="JavaScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-              <h3> Banking app</h3>
-              </div>
-              <div className='item'>
-              <img alt="JavaScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-              <h3> Banking app</h3>
-              </div>
-              <div className='item'>
-              <img alt="JavaScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-              <h3> Banking app</h3>
-              </div>
-              <div className='item'>
-              <img alt="JavaScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-              <h3> Banking app</h3>
-              </div>
-              <div className='item'>
-              <img alt="JavaScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-              <h3> Banking app</h3>
-              </div>
-              <div className='item'>
-              <img alt="JavaScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-              <h3> Banking app</h3>
-              </div>
+              <img src={data.img} />
+              <h3>{data.title}</h3>
+            </div>
+
+              ))}
             </div>
         </div>
   )

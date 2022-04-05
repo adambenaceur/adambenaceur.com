@@ -1,7 +1,6 @@
 .portfolio {
     display:flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
 }
 
@@ -16,24 +15,21 @@ ul {
     display: flex;
 } 
 
-li {
-    font-size:12px;
-    margin-right: 5px;
-    padding: 7px;
-}
-
-.active {
-    background-color: lightgreen;
-    color:white;
-    border-radius: 10px;
-    cursor:pointer;
-}
 
 .container {
-    display:flex;
+    display:grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     align-items:center;
     justify-content: center;
     flex-wrap:wrap;
+
+    @media screen and (max-width: 900px)  { 
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    @media screen and (max-width: 600px)  { 
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
 }
 
 .item {
@@ -63,8 +59,10 @@ img {
     z-index: 1;
 }
 
-img:hover {
-    background-color:white;
+.item:hover {
+    background-color:lightgreen;
+    img {
     opacity: 0.2;
     z-index:0;
+    }
 }
