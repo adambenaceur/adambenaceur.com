@@ -2,6 +2,7 @@
     display:flex;
     align-items: center;
     justify-content: center;
+    height: calc(100vh);
 }
 
 .left {
@@ -42,5 +43,12 @@ form {
         width: 80%;
         height:200px;
         font-size:14px;
+    }
+
+    button {
+        width: 150px;
+        height: 30px;
+        color: white;
+        background-color: lightgreen;
     }
 }

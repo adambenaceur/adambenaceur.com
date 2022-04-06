@@ -1,14 +1,19 @@
 .portfolioList {
     font-size:14px;
-    // margin-right: 25px;
-    // margin-left: 25px;
     padding: 7px;
     border-radius: 10px;
     cursor:pointer;
+    margin-right:25px;
+    margin-left:25px;
+}
+
+ul {
+    justify-items: space-between;
 }
 
 .active {
     background-color: lightgreen;
     color:white;
     cursor:pointer;
+    
 }

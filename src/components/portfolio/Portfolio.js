@@ -56,6 +56,7 @@ function Portfolio() {
   return (
     <div className='portfolio' id='portfolio'>
       <h1 className='title-page'>Portfolio</h1>
+        
         <ul>
           {list.map( (item) => (
             <PortfolioList 
