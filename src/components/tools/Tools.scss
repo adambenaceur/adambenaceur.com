@@ -3,23 +3,20 @@
     flex-direction:column;
     align-items: center;
     justify-content: center;
-    height: calc(100vh);
     position:relative;
     justify-content:space-around;
 }
 
-.skills-title {
+.tools-title {
     display:flex;
     justify-content: center;
-    height: calc(25vh);
 }
 
-.skills-icon-container {
-    height: calc(85vh);
+.tools-icon-container {
     display: flex;
     align-items: center;
 }
-.skills-icon{
+.tools-icon{
    
     // width:50%;
     display:grid;
@@ -36,7 +33,7 @@
     
     
 }
-.icons{
+.tools-icon-img{
     width: 220px;
     height: 150px;
     // margin: 10px 20px;
@@ -48,7 +45,7 @@
 
 }
 
-.icons img {
+.tools-icon img {
     width:max-content;
 }
 

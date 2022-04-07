@@ -6,19 +6,20 @@ function Tools() {
 
   return (
     <div className='tools' id='tools'>
-      <div className='skills-title'>
+      <div className='tools-title'>
         <h1>Tools</h1>
       </div>
-      {/* <div className='skills-icon-container'> */}
-      <div className='skills-icon-container'>
-        <div className='skills-icon'>
-          <div className='icons'><img alt="Visual Studio Code"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" /></div>
-          <div className='icons'><img  alt="HTML5"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" /></div>
-          <div className='icons'><img  alt="CSS3" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" /></div>
-          <div className='icons'><img alt="JavaScript"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"/></div>
-          <div className='icons'><img alt="React"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" /></div>
-          <div className='icons'><img alt="Node.js" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"  /></div>
-          <div className='icons'><img alt='Python' src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg'/></div>
+      <div className='tools-icon-container'>
+        <div className='tools-icon'>
+          <div className='tools-icon-img'><img alt="Visual Studio Code"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" /></div>
+          <div className='tools-icon-img'><img  alt="NPM"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" /></div>
+          <div className='tools-icon-img'><img  alt="Github" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /></div>
+          <div className='tools-icon-img'><img alt="Slack"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg"/></div>
+          <div className='tools-icon-img'><img alt="Yarn"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original.svg" /></div>
+          <div className='tools-icon-img'><img alt="Firebase" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"  /></div>
+          <div className='tools-icon-img'><img alt='Git' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"/></div>
+          <div className='tools-icon-img'><img alt='Bash' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg"/></div>
+          
       </div>
     </div>
   </div>
