@@ -67,15 +67,17 @@ function Portfolio() {
             />
           ))}
         </ul>
-          <div className='container'>
-            {data.map(data => (
+            <div className='portfolio-container'>
+              <div className='container'>
+                {data.map(data => (
 
-            <div className='item'>
-              <img src={data.img} />
-              <h3>{data.title}</h3>
-            </div>
+                <div className='item'>
+                  <img src={data.img} />
+                  <h3>{data.title}</h3>
+                </div>
 
-              ))}
+                  ))}
+                </div>
             </div>
         </div>
   )

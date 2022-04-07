@@ -1,12 +1,12 @@
 .about {
     background-color: white;
-    justify-content: center ;
+    justify-content: space-between ;
     display: block;
     scrollbar-width: none; // for firefox
     &::-webkit-scrollbar{ // for other browsers
         display:none;
     }
-    height: calc(100vh);
+    height: calc(100vh -100px);
 }
 
 
@@ -23,6 +23,7 @@
     width: 300px;
     height: 300px;
     border-radius: 50%;
+
     margin-top: 20px;
     justify-content: center;
     margin:40px;
