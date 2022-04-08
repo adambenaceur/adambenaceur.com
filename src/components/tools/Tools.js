@@ -11,7 +11,7 @@ function Tools() {
       </div>
       <div className='tools-icon-container'>
         <div className='tools-icon'>
-          <div className='tools-icon-img'><img alt="Visual Studio Code"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" /><h1>Visual Studio Code</h1></div>
+          <div className='tools-icon-img'><img alt="Visual Studio Code"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" /><h1> VSC</h1></div>
           <div className='tools-icon-img'><img  alt="NPM"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" /><h1>NPM</h1></div>
           <div className='tools-icon-img'><img  alt="Github" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /><h1>Github</h1></div>
           <div className='tools-icon-img'><img alt="Slack"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg"/><h1>Slack</h1></div>

@@ -17,7 +17,7 @@ function Skills() {
           <div className='skills-icon-img'><img alt="React"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" /><h1>React</h1></div>
           <div className='skills-icon-img'><img alt="Node.js" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"  /><h1>Node.js</h1></div>
           <div className='skills-icon-img'><img alt='Python' src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg'/><h1>Python</h1></div>
-          <div className='skills-icon-img'><img alt='TailwindCSS' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"/><h1 className='t'>Tailwind</h1><h1 className='t-css'>CSS</h1></div>
+          <div className='skills-icon-img'><img alt='TailwindCSS' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"/><h1>Tailwind</h1></div>
           <div className='skills-icon-img'><img alt='Sass' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"/><h1>Sass</h1></div>
           <div className='skills-icon-img'><img alt='Redux' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"/><h1>Redux</h1></div>
           
