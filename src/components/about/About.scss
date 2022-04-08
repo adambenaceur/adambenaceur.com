@@ -6,16 +6,34 @@
     &::-webkit-scrollbar{ // for other browsers
         display:none;
     }
-    height: calc(100vh -100px);
+    height: calc(100vh);
+}
+
+.about-me {
+    overflow: hidden;
 }
 
 
+.about-me h1{
+    position:relative;
+    display:flex;
+    align-items: center;
+    max-width: fit-content;
+    font-family: Roboto Mono;
+    font-weight: 100;
+}
+
+
+
 .imgContainer{
-    // overflow:hidden;
     justify-content:center;
+    align-items: center;
     display: flex;
     margin: 0;
     padding: 0;
+    height: calc(60vh);
+    overflow: hidden;
+    
 }
 
 .imgContainer img {
@@ -30,17 +48,9 @@
     box-shadow: 0 0px 50px -10px #000019;
 }
 
-.title {
-    display:flex;
-    
-}
 
 
-.about h1 {
-    position: relative;
-    font-family: Roboto Mono;
-    font-weight: 100;
-}
+
 
 .about h1::before,
 .about h1::after {
@@ -66,13 +76,14 @@
 
 
 
-.about p {
+.about-me p {
     margin: 10px 0px;
     font-weight: 300;
     font-family: Roboto Mono;
     opacity: 0;
     transform: translateY(3rem);
     animation: fadeInUp 2s ease calc(4s + .5s) forwards;
+    
 }
 
 .about a {
