@@ -20,6 +20,13 @@
     display: flex; 
     font-family: Roboto Mono;
     font-weight:100;
+    @media screen and (max-width: 500px)  { 
+        display:block;
+    }
+}
+
+.first-name {
+    display:flex;
 }
 
 .header-name a{
@@ -46,6 +53,10 @@
 .media {
     display: flex;
     align-items: center;
+
+    @media screen and (max-width: 500px)  { 
+        display:block;
+    }
 }
 
 

@@ -7,13 +7,15 @@ function Header() {
       <div className='header'>
           <div className='header-content'>
             <h1 className='header-name'> 
+            <div className='first-name'>
               <a>A</a>
               <a>d</a>
               <a>a</a>
               <a>m</a>
               <p>&nbsp;</p>
+            </div>
+            <div className='last-name'>
               <a>B</a>
-              
               <a>e</a>
               <a>n</a>
               <a>a</a>
@@ -21,6 +23,7 @@ function Header() {
               <a>e</a>
               <a>u</a>
               <a>r</a>
+            </div>
             </h1>
             <div className='media'>                 
               <div className='media-items'>
