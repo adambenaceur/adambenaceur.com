@@ -2,21 +2,15 @@
     display:flex;
     flex-direction:column;
     align-items: center;
-    // justify-content: center;
-    height:100vh;
+    height:100%;
 }
-
 
 .skills-title {
     overflow-y: hidden;
 }
-.skills-title h1{
-    // display:flex;
-    // justify-content: center;
-    // height: fit-content;
 
+.skills-title h1{
     font-size: 50px;
-    // height: calc(10vh);
     padding: 50px 50px 50px 50px;
     display: flex;
     align-items: center;
@@ -29,25 +23,19 @@
     height: fit-content;
     display: flex;
     justify-content: center;
-    height:100vh
+    height:100vh;
 }
+
 .skills-icon{
-   
-    // width:50%;
     display:grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
-    // justify-content:space-between;
     align-items: center;
-//     align-items: center;
-//     justify-content:center;
-//     flex-direction:column;
     row-gap: 1rem;
     column-gap: 1rem;
     justify-content: center;
-    flex-wrap:wrap;
-    
-    
+    flex-wrap:wrap;   
 }
+
 .skills-icon-img{
     width: 220px;
     height: 150px;
@@ -57,7 +45,23 @@
     padding: 0 !important;
     flex-direction:column;
     height:100%;
+    overflow-y: hidden;
+}
 
+.skills-icon-img h1{
+    padding: 50px 50px 50px 50px;
+    display: flex;
+    align-items: center;
+    font-family: Roboto;
+    font-weight: 400;
+    
+
+    flex-direction:column;
+    width: max-content;
+    height:fit-content;
+    font-size:medium;
+    padding: 10px;
+    overflow-y: hidden;
 }
 
 .skills-icon-img img {
@@ -66,23 +70,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: pointer;
-    padding: 0 !important;
-    
+    padding: 0 !important; 
 }
 
-.skills-icon-img h1{
-    display:flex;
-    flex-direction:column;
-    width: max-content;
-    height:fit-content;
-    font-size:medium;
-    padding: 10px;
-    font-family: 'Roboto';
-    overflow-y: hidden;
-}
-// display:grid;
-// grid-template-columns: repeat(3, minmax(0, 1fr));
-// align-items:center;
-// justify-content: center;
-// flex-wrap:wrap;
+
