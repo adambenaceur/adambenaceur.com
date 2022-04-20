@@ -14,6 +14,7 @@
 
 .contact-title {
     display:flex;
+    
 }
 
 .contact-title h1{
@@ -24,6 +25,7 @@
     justify-items: center;
     font-family: Roboto;
     font-weight: 10;
+    overflow-y:hidden;
     
 }
 
@@ -32,6 +34,7 @@
     width:100%;
     align-items: center;
     justify-content: center;
+    overflow-y: hidden;
 
     @media screen and (max-width: 700px)  { 
         display:flex;
@@ -84,37 +87,7 @@
 
 .contact-form form  * {
     margin: 1px;
-
-    // @media screen and (max-width: 700px)  { 
-    //     width:100%;
-    // }
 }
-
-
-
-
-// .left {
-//     flex: 1;
-// }
-
-// .left img {
-//     height: 100%;
-//     width: 100%;
-//     overflow: hidden;
-// }
-// .right{
-//     flex: 1;
-//     display: flex;
-//     flex-direction: column;
-//     align-items:center;
-//     justify-content: space-around;
-// }
-
-// h2 {
-//     font-size:30px;
-// }
-
-
 
 form {
     width: 70%;
@@ -123,17 +96,31 @@ form {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin:0px !important;
 
     input {
         width:80%;
         height:30px;
         font-size:14px;
+        padding:10px !important;
+    }
+    input:focus { 
+        outline: none !important;
+        border:5px  lightgreen;
+        border-color: lightgreen !important;
+        box-shadow: 0 0 10px lightgreen !important;
     }
 
     textarea {
         width: 80%;
         height:200px;
         font-size:14px;
+        padding:10px !important;
+    }
+    textarea:focus { 
+        outline: none !important;
+        border-color: lightgreen;
+        box-shadow: 0 0 10px lightgreen;
     }
 
     button {
