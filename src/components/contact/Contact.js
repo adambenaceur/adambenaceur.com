@@ -1,12 +1,13 @@
-import React from 'react'
+import React, { useState} from 'react'
 import './Contact.scss'
 import emailjs from 'emailjs-com'
 
 function Contact() {
+  const [message, setMesssage ] = useState(false);
 
   function sendEmail(e) {
     e.preventDefault();
-
+    setMesssage(true)
     emailjs.sendForm('service_1s6fscm', 'template_yr8ugqa', e.target, 'AcmjQAKUiLtUninFe')
       .then((result) => {
           console.log(result.text);
@@ -24,7 +25,8 @@ function Contact() {
         </div>
         <div className='contact-form'>
           
-          <form onSubmit={sendEmail}>
+          <form onSubmit={sendEmail} autocomplete="off">
+          {message && <div className='message'>Thank you! I will be in touch shorty.</div>}
             <input type='text' placeholder='Email' name='email'/>
             <textarea placeholder='Message' name = 'message'></textarea>
             <button type='submit'>Send</button>

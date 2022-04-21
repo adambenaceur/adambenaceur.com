@@ -23,11 +23,7 @@ function App() {
           <Skills/>
           <Tools />
           <Contact/>
-            {/* <div className="sections"> 
 
-            
-              
-            </div> */}
         </div>
         
 
