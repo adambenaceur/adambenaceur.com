@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import './Portfolio.scss'
 import PortfolioList from '../portfolioList/PortfolioList';
-import { featuredPortfolio, webPortfolio, mobilePortfolio, designPortfolio, contentPortfolio} from '../../data'
+import { featuredPortfolio, webPortfolio, mobilePortfolio, pythonPortfolio, solidityPortfolio} from '../../data'
 
 
 function Portfolio() {
@@ -21,12 +21,12 @@ function Portfolio() {
       title: 'Mobile App',
     },
     {
-      id: 'design',
-      title: 'Design',
+      id: 'python',
+      title: 'Python',
     },
     {
-      id: 'content',
-      title: 'Content',
+      id: 'web 3.0',
+      title: 'Web 3.0',
     },
   ];
 
@@ -40,13 +40,13 @@ function Portfolio() {
             setData(webPortfolio);
             break;
         case "mobile":
-            setData(featuredPortfolio);
+            setData(mobilePortfolio);
             break;
         case "design":
-            setData(designPortfolio);
+            setData(pythonPortfolio);
             break;
-        case "content":
-            setData(contentPortfolio);
+        case "web 3.0":
+            setData(solidityPortfolio);
             break;
             default:
               setData(featuredPortfolio);

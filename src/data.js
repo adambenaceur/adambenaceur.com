@@ -109,7 +109,7 @@ export const featuredPortfolio = [
     },
   ];
   
-  export const designPortfolio = [
+  export const pythonPortfolio = [
     {
       id: 1,
       title: "Design Social Media App",
@@ -148,7 +148,7 @@ export const featuredPortfolio = [
     },
   ];
   
-  export const contentPortfolio = [
+  export const solidityPortfolio = [
     {
       id: 1,
       title: "Content Social Media App",
