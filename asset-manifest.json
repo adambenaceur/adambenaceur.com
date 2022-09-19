@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/adambenaceur.com/static/css/main.9f217ec2.css",
-    "main.js": "/adambenaceur.com/static/js/main.c20a057b.js",
-    "index.html": "/adambenaceur.com/index.html",
-    "main.9f217ec2.css.map": "/adambenaceur.com/static/css/main.9f217ec2.css.map",
-    "main.c20a057b.js.map": "/adambenaceur.com/static/js/main.c20a057b.js.map"
+    "main.css": "/static/css/main.9f217ec2.css",
+    "main.js": "/static/js/main.c20a057b.js",
+    "index.html": "/index.html",
+    "main.9f217ec2.css.map": "/static/css/main.9f217ec2.css.map",
+    "main.c20a057b.js.map": "/static/js/main.c20a057b.js.map"
   },
   "entrypoints": [
     "static/css/main.9f217ec2.css",
