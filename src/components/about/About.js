@@ -14,7 +14,6 @@ function About() {
           <p>As a nursing student at the <a>University of Calgary</a>,</p>
           <p>I am intrigued by the fascinating blend of healthcare and technology, where these two fields seamlessly merge.</p>
           <p>Driven by a strong passion for learning, I am eager to explore the promising world were these two fields meet unlocking new potential and opportunities.</p>
-    
           <p> Thanks for checking out my page, <a>have a great rest of your day! </a></p>
         </div>
     </div>
