@@ -11,9 +11,10 @@ function About() {
         
         <div className='about-me'>
             <h1 >Hi, I'm Adam !</h1>
-          <p> I am nursing student at the <a>University of Calgary</a>.</p>
-          <p> I like learning about computer science topics such as logic, and programming paradigms. My
-            interests include nursing and full stack developement. </p>
+          <p>As a nursing student at the <a>University of Calgary</a>,</p>
+          <p>I am intrigued by the fascinating blend of healthcare and technology, where these two fields seamlessly merge.</p>
+          <p>Driven by a strong passion for learning, I am eager to explore the promising world were these two fields meet unlocking new potential and opportunities.</p>
+    
           <p> Thanks for checking out my page, <a>have a great rest of your day! </a></p>
         </div>
     </div>
