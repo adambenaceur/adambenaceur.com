@@ -19,7 +19,7 @@ function App() {
           <Header/>
           <Navigation/>
           <About/>
-          <Portfolio/>
+//           <Portfolio/>
           <Skills/>
           <Tools />
           <Contact/>
