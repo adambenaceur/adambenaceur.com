@@ -33,7 +33,7 @@ function Header() {
                 <a href='https://www.linkedin.com/in/adambenaceur/' title='Linkedin'><LinkedIn className='icon'/> </a>
               </div>
               <div className='media-items'>
-                <a href='mailto:benaceur.adam@gmail.com' title='Email'><Mail className='icon'/></a>
+                <a href='mailto:adam.benaceur1@ucalgary.ca' title='Email'><Mail className='icon'/></a>
               </div>
             </div> 
           </div>
